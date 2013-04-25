@@ -62,7 +62,7 @@ This file contains metadata about the package :
 * **license** : the package's license
 * **maintainer** : the name of the package's maintainer
 * **updateDate** : the package's last update date. Must be in MySQL-format (i.e. `YYYY-MM-DD HH-MM-SS`).
-* **size" : the _source.zip_ file size
+* **size** : the _source.zip_ file size
 * **extractedSize** : the package's size, when extracted
 * **hasScripts** : determines if the package has install/uninstall scripts
 
@@ -90,10 +90,10 @@ Contains a list of the package's files, with their checksums.
 
 ```json
 {
-  "/CHANGELOG.md":{"md5sum":"fe295cebe9c15603045ed64cc78a4df8"},
+	"/CHANGELOG.md":{"md5sum":"fe295cebe9c15603045ed64cc78a4df8"},
 	"/COPYING":{"md5sum":"d32239bcb673463ab874e80d47fae504"},
 	"/core/ApiBackController.class.php":{"md5sum":"4c22f3f06bc07de1c47e12d9948f0e84"},
 	"/core/ApiResponse.class.php":{"md5sum":"542732e0c5044dfa33b5139a904798fa"},
-  ...
+	...
 }
 ```
