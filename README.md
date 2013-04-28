@@ -47,7 +47,7 @@ source.zip
 
 This is a ZIP file with 1 folder named _src_, which corresponds to the platform's root folder.
 
-Additionnaly, it can contain **INSTALL._xxx_** and **REMOVE._xxx_** files, which will be executed after installation and before uninstallation.
+Additionnaly, it can contain **INSTALL.<em>xxx</em>** and **REMOVE.<em>xxx</em>** files, which will be executed after installation and before uninstallation.
 
 metadata.json
 -------------
