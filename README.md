@@ -34,7 +34,7 @@ metadata.json
 This file contains metadata about the repository (e.g. its title, maintainer). Its kind is the platform on which packages can be installed. The _specification_ field is the confiture specification version.
 ```json
 {
-  "title":"Lighp official repository",
+	"title":"Lighp official repository",
 	"kind":"lighp",
 	"specification":"1.0",
 	"maintainer":"Simon Ser"
