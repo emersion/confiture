@@ -21,7 +21,7 @@ Repository structure
 packages/
 ---------
 
-Packages directories are located in sub-directories entitled with their first letter. For exemple, the package _yaourt_ would be located in _packages/y/yaourt/_.
+Packages directories are located in sub-directories entitled with their first letter. For example, the package _yaourt_ would be located in _packages/y/yaourt/_.
 
 index.json
 ----------
