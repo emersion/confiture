@@ -3,6 +3,13 @@ confiture 1.0 alpha 1
 
 A simple package control system specification, designed for the web, based on JSON and ZIP.
 
+How to use
+==========
+
+You can implement this specificationwhere you want.
+
+To quickly create and update packages and repositories, you can use [confiture.utils](http://github.com/simonser/confiture.utils).
+
 Repository structure
 =================
 
