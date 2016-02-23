@@ -37,7 +37,7 @@ This file contains metadata about the repository (e.g. its title, maintainer). I
 	"title":"Lighp official repository",
 	"kind":"lighp",
 	"specification":"1.0",
-	"maintainer":"Simon Ser"
+	"maintainer":"emersion"
 }
 ```
 
@@ -83,7 +83,7 @@ This file contains metadata about the package :
     "url": "http://github.com/lighp/lighp", 
     "version": "1.0alpha1", 
     "updateDate": "2013-04-19 08:18:46", 
-    "maintainer": "Simon Ser", 
+    "maintainer": "emersion", 
     "size": 96106, 
     "extractedSize": 232105, 
     "name": "lighp-core"
