@@ -6,7 +6,7 @@ A simple package control system specification, designed for the web, based on JS
 How to use
 ==========
 
-You can implement this specificationwhere you want.
+You can implement this specification where you want.
 
 To quickly create and update packages and repositories, you can use [confiture.utils](http://github.com/simonser/confiture.utils).
 
@@ -21,7 +21,7 @@ Repository structure
 packages/
 ---------
 
-Packages directories are located in sub-directories entitled with their first letter. For example, the package _yaourt_ would be located in _packages/y/yaourt/_.
+Packages directories are located in sub-directories which name is their first letter. For example, the package _yaourt_ would be located in _packages/y/yaourt/_.
 
 index.json
 ----------
@@ -44,7 +44,7 @@ This file contains metadata about the repository (e.g. its title, maintainer). I
 Package structure
 =================
 
-Each package in the repository has its own directory, which contains :
+Each package in the repository has its own directory, which contains:
 * source.zip : the package's source
 * metadata.json : the package's metadata
 * files.json : the package's files
@@ -54,7 +54,7 @@ source.zip
 
 This is a ZIP file with 1 folder named _src_, which corresponds to the platform's root folder.
 
-Additionnaly, it can contain **INSTALL.<em>xxx</em>** and **REMOVE.<em>xxx</em>** files, which will be executed after installation and before uninstallation.
+Additionally, it can contain **INSTALL.<em>xxx</em>** and **REMOVE.<em>xxx</em>** files, which will be executed after installation and before uninstallation.
 
 metadata.json
 -------------
